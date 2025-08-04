@@ -1,0 +1,5 @@
+    main difference between animation runs by default but transition runs on events
+    there are two types of length uniit relative and absolute
+    absolute length units are fixed
+    rem => root font size
+    em=> current font size
