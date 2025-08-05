@@ -1,0 +1,19 @@
+.hire-me {
+    background-color: rgba(21, 76, 121, 0.562);
+    color: antiquewhite;
+    height: 2.5rem;
+    width: 10%;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.hire-me:hover {
+    background-color: brown;
+    height: 3.5rem;
+    width: 15%;
+    border-radius: 5px;
+    cursor: pointer;
+    text-shadow: 2px 2px 5px red;
+    box-shadow: 0 0 15px pink;
+}
