@@ -4,10 +4,10 @@ This repository is a collection of **HTML & CSS** projects, where some random pr
 
 ## Projects
 
-| Project Name             | Demo                                               |
-| **Button Hover Effects** | [View Project](projects/button-hover/index.html)   |
-| **Loader Spinners**      | [View Project](projects/loader-spinner/index.html) |
-
+| Project Name             | Source Code |
+|--------------------------|-------------|
+| **Button Hover Effects** | [View Source Code](projects/button-hover/) |
+| **Loader Spinners**      | [View Source Code](projects/loader-spinner/) |
 ---
 
 ## How to Use
