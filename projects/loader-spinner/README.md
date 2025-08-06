@@ -1,23 +1,10 @@
-# 🔄 Loader Spinners
+# Loader Spinners
 
 A set of **pure CSS loading animations** to display engaging UI states while content is loading.
 
-## ✨ Loader Styles
-- Rotating Border
-- Dual Ring
-- Dot Bounce
-- Wave Loader
-- Morphing Shape
+## Loader Types
 
-## 🛠 Tech Used
-- HTML
-- CSS (Keyframes Animation)
-
-## 📷 Preview
-*(Add a screenshot of the loader page here)*
-
-## 🎯 How It Works
-- Each loader uses `@keyframes` to animate rotation, scale, or shape.
-- No JavaScript required — runs smoothly in all modern browsers.
-
-[⬅ Back to Showcase](../../index.html)
+- **Rotating Border** – A circular border spins continuously to indicate loading.  
+- **Dual Ring** – Two rings rotate in opposite directions for a smooth loading animation.  
+- **Dot Bounce** – Multiple dots bounce in sequence to show activity.  
+- **Wave Loader** – Bars rise and fall in a wave pattern to indicate progress.

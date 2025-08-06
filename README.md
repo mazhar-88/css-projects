@@ -1,17 +1,20 @@
-# 🎨 CSS Projects Showcase
+# HTML CSS Projects
 
-A collection of small but creative **HTML & CSS** projects — from stylish button hover effects to engaging loader animations.
+This repository is a collection of **HTML & CSS** projects, where some random project ideas have been turned into actual implementations. Please check it out.
 
-## 📂 Projects
+## Projects
 
-| Project Name        | Description | Demo |
+| Project Name        | Demo |
 |---------------------|-------------|------|
-| **Button Hover Effects** | Six unique hover animations for buttons, including glow borders, sliding backgrounds, and more. | [View Project](projects/button-hover/index.html) |
-| **Loader Spinners** | A set of animated loaders to enhance UI loading states, made with pure CSS. | [View Project](projects/loader-spinner/index.html) |
+| **Button Hover Effects** | [View Project](projects/button-hover/index.html) |
+| **Loader Spinners** | [View Project](projects/loader-spinner/index.html) |
 
 ---
 
-## 🚀 How to Use
+## How to Use
 1. Clone the repository:
    ```bash
    git clone https://github.com/mazhar-88/css-projects.git
+2. Open the project folder in your code editor (e.g., VS Code).
+3. Inside the projects folder, choose any project you want to view.
+4. Open the project's index.html file in your web browser to see it in action.

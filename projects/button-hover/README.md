@@ -1,26 +1,11 @@
-# 🎯 Button Hover Effects
+# Button Hover Effects
 
-A collection of **six unique button hover animations** made with pure CSS.  
-Perfect for adding an interactive and modern touch to any website.
+A collection of buttons with hover effect with animations made with pure HTML and CSS.  
 
-## ✨ Effects Included
-- Glow Border
-- Slide Background
-- Fill & Scale
-- Shadow Pulse
-- Border Draw
-- Text Slide
+## Effects Included
 
-## 🛠 Tech Used
-- HTML
-- CSS (Transitions, Transform, Keyframes, Pseudo-elements)
-
-## 📷 Preview
-*(Add a screenshot of the page here)*
-
-## 🎯 How It Works
-- Uses CSS `:hover` states to trigger animations.
-- Some effects use `::before` and `::after` for creative layering.
-- Smooth transitions for a polished look.
-
-[⬅ Back to Showcase](../../index.html)
+- **Glow Border** – The button border glows with a smooth light effect when hovered.
+- **Slide Background** – A background color slides in to fill the button on hover.
+- **Fill & Scale** – The button fills with color and slightly enlarges for emphasis.
+- **Shadow Pulse** – A pulsing shadow animation appears around the button on hover.
+- **Border Draw** – The border is drawn around the button in a smooth animation.

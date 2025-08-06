@@ -5,30 +5,61 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
+    overflow-y: hidden;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3%;
+    position: relative;
+}
+
+.back-link {
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 3rem;
+}
+
+.back-link:hover {
+    color: #007BFF;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 1.5rem;
     text-align: center;
 }
 
 .container {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* gap: 20px; */
     justify-content: space-around;
     align-items: center;
     height: 100vh;
 }
 
-/* .loader-card {
-    background: #f9f9f9;
-    padding: 15px;
-    border-radius: 8px;
-    width: 180px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-} */
+.loader-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .loader-card p {
-    margin-bottom: 10px;
-    font-weight: bold;
+    font-weight: 600;
+    margin-bottom: 1rem;
 }
 
 /* Loader base */
@@ -40,21 +71,21 @@ body {
 
 /* 1. Rotating Border */
 .rotating-border {
-    height: 40px;
-    width: 40px;
+    height: 2rem;
+    width: 2rem;
     border-radius: 50%;
-    border: 5px solid black;
+    border: 5px solid #E93516;
     border-top: 5px solid transparent;
     animation: spin 1s linear infinite;
 }
 
 /* 2. Dual Ring */
 .dual-ring {
-    height: 40px;
-    width: 40px;
+    height: 2rem;
+    width: 2rem;
     border: 5px solid transparent;
-    border-top: 5px solid #333;
-    border-bottom: 5px solid #333;
+    border-top: 5px solid #C9680C;
+    border-bottom: 5px solid #C9680C;
     border-radius: 50%;
     animation: spin 1.2s linear infinite;
 }
@@ -64,14 +95,16 @@ body {
     display: block;
     width: 10px;
     height: 10px;
-    background: #333;
+    background: #F01486;
     border-radius: 50%;
     margin: 0 3px;
     animation: bounce 0.6s infinite alternate;
 }
+
 .dot-bounce span:nth-child(2) {
     animation-delay: 0.2s;
 }
+
 .dot-bounce span:nth-child(3) {
     animation-delay: 0.4s;
 }
@@ -81,30 +114,56 @@ body {
     display: block;
     width: 5px;
     height: 20px;
-    background: #333;
+    background: #008000;
     margin: 0 2px;
     animation: wave 0.6s infinite ease-in-out;
 }
-.wave-loader span:nth-child(2) { animation-delay: 0.1s; }
-.wave-loader span:nth-child(3) { animation-delay: 0.2s; }
-.wave-loader span:nth-child(4) { animation-delay: 0.3s; }
-.wave-loader span:nth-child(5) { animation-delay: 0.4s; }
+
+.wave-loader span:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.wave-loader span:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+.wave-loader span:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+.wave-loader span:nth-child(5) {
+    animation-delay: 0.4s;
+}
 
 
 
 /* Animations */
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 @keyframes bounce {
-    to { transform: translateY(-10px); opacity: 0.6; }
+    to {
+        transform: translateY(-10px);
+        opacity: 0.6;
+    }
 }
 
 @keyframes wave {
-    0%, 40%, 100% { transform: scaleY(0.4); } 
-    20% { transform: scaleY(1); }
+
+    0%,
+    40%,
+    100% {
+        transform: scaleY(0.4);
+    }
+
+    20% {
+        transform: scaleY(1);
+    }
 }
-
-
